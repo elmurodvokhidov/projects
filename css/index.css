@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #111;
+}
+
+.imgContainer {
+    width: 50%;
+    height: 100%;
+}
+
+h1 {
+    width: 50%;
+    text-align: center;
+    font-size: 40px;
+    font-family: monospace;
+    text-transform: capitalize;
+    color: white;
+}
