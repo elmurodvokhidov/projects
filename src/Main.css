@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 15px 0px;
+    background-color: #2D2D2D;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #C9C9C9;
+    outline: none;
+}
+
+.navbar a:hover {
+    color: #7996FC;
+}
+
+.header {
+    width: 100%;
+    background-color: #2D2D2D;
+}
