@@ -1,0 +1,19 @@
+.card {
+    max-width: 290px;
+    height: 480px;
+    border-radius: 6px;
+    background: #212121a0;
+}
+
+.img {
+    width: 98%;
+    height: 250px;
+    margin: 15px auto;
+    background: #212121a0;
+}
+
+.title {
+    width: 100px;
+    height: 25px;
+    background: #212121a0;
+}
