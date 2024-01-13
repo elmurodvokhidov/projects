@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+.modal {
+    position: absolute;
+    left: -100%;
+}
+.inputch {
+    display: none;
+}
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.header {
+    white-space: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    cursor: pointer;
+}
+.menu span {
+    font-size: 40px;
+    padding-left: 30px;
+}
+.logo h1 {
+    font-size: 57px;
+}
+.login ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login ul li span {
+    font-size: 35px;
+}
+.login li {
+    padding-right: 15px;
+    cursor: pointer;
+}
+.login ul:last-child {
+    padding-right: 15px;
+}
+.section1 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 22%);
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 200px;
+    border-bottom: 1px solid #CACACA;
+}
+.card {
+    padding-top: 100px;
+    text-align: center;
+}
+.card p {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.section5 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 80px;
+    padding-top: 250px;
+}
+.section5 .box {
+    width: 25%;
+    height: 250px;
+    padding-top: 35px;
+    padding-left: 100px;
+}
+.box p {
+    padding-top: 15px;
+    line-height: 150%;
+}
+.box input {
+    padding: 10px 15px;
+    font-size: 22px;
+    outline: none;
+    margin-top: 20px;
+    border: 2px solid #999999;
+    margin-bottom: 20px;
+}
+.box button {
+    padding: 15px 25px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.footer p {
+    padding: 20px 0px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Tablet 769 */
+
+@media (max-width: 769px) {
+    .container {
+        max-width: 768px;
+    }
+    .section1 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 45%);
+        gap: 10px;
+    }
+    .section5 {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        padding-bottom: 300px;
+        padding-top: 150px;
+    }
+    .box input {
+        font-size: 16px;
+    }
+}
+
+/* mobile m 376 */
+
+@media (max-width: 376px) {
+    .logo {
+        display: none;
+    }
+    .login ul li:first-child {
+        display: none;
+    }
+    .login ul li:last-child {
+        display: none;
+    }
+    .section1 {
+        display: grid;
+        grid-template-columns: repeat(1, 90%);
+        gap: 5px;
+    }
+    .section5 .delete {
+        display: none;
+    }
+    .section5 {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        padding-left: 50px;
+        padding-top: 30px;
+    }
+    .section5 .box {
+        padding-left: 0px;
+    }
+    .box input {
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+    .box button {
+        padding: 10px 20px;
+    }
+    .modal {
+        position: absolute;
+        width: 80%;
+        background-color: black;
+        height: 116vh;
+        transition: 0.3s ease-in-out;
+    }
+    .m-logo {
+        position: relative;
+        left: 115px;
+        top: 5px;
+    }
+    .modal .cancel span {
+        color: red;
+        position: absolute;
+        right: 15px;
+        top: 10px;
+    }
+    .m-login {
+        width: 100%;
+        line-height: 50px;
+        letter-spacing: 5px;
+        font-size: 25px;
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+    input:checked ~ .modal {
+        position: absolute;
+        left: 0px;
+    }
+}

@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/* <<<<<<<<<<<<<<<<<<<< SECTION 1 >>>>>>>>>>>>>>>>>>>>>>>> */
+
+.section1 {
+    width: 100%;
+    background-color: cadetblue;
+}
+.navbar {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-right: 60px;
+    padding-left: 60px
+}
+.logo {
+    width: 70px;
+}
+.navbar .logo img {
+    width: 100%;
+}
+.navbar ul {
+    display: flex;
+    align-items: center;
+}
+.navbar ul li {
+    padding-right: 70px;
+}
+.navbar ul li a {
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+}
+#opensea {
+    padding: 10px 30px;
+    background: #F7859C;
+    border-radius: 12px;
+}
+#opensea a {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+}
+.s1-main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.s1-main .left {
+    width: 60%;
+    /* background-color: red; */
+    padding-top: 250px;
+    padding-left: 100px;
+}
+.s1-main .left #img1 {
+    width: 100%;
+    position: absolute;
+    display: none;
+    /* left: 350px; */
+}
+.s1-main .left #img2 {
+    width: 450px;
+    position: relative;
+    /* left: 40px; */
+}
+.s1-main .right {
+    width: 60%;
+    display: flex;
+    /* background-color: red; */
+    padding-top: 250px;
+}
+#imgr1 {
+    width: 450px;
+}
+#imgr2 {
+    position: absolute;
+    display: none;
+}
+.middle {
+    /* background-color: blue; */
+    text-align: center;
+}
+.middle h1 {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 130%;
+    padding-bottom: 50px;
+}
+.middle p {
+    font-size: 24px;
+    padding-bottom: 50px;
+}
+
+/* <<<<<<<<<<<<<<<<<<<< SECTION 2 >>>>>>>>>>>>>>>>>>>>>>>> */
+
+.section2 {
+    width: 100%;
+}
+/* <<<<<<<<<<<<<<<<<<<< SECTION 3 >>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* <<<<<<<<<<<<<<<<<<<< SECTION 4 >>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* <<<<<<<<<<<<<<<<<<<< SECTION 5 >>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* <<<<<<<<<<<<<<<<<<<< SECTION 6 >>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* <<<<<<<<<<<<<<<<<<<< SECTION 7 >>>>>>>>>>>>>>>>>>>>>>>> */
